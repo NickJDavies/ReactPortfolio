@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style.css"
+import style from "./style.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 import About from "./components/About";
@@ -19,6 +19,9 @@ function App() {
           </Route>
           <Route path="/portfolio">
             <Portfolio />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/">
             <About />
