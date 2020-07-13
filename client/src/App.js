@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.css"
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Books from "./pages/Books";
 // import Detail from "./pages/Detail";
 // import NoMatch from "./pages/NoMatch";
@@ -14,8 +14,20 @@ function App() {
   return (
     <div>
       <Nav></Nav>
-
-      <Contact></Contact>
+      <Router>
+        <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/">
+            <About />
+          </Route>
+        </Switch>
+      </Router>
+      
 
       <Footer></Footer>
     </div>
