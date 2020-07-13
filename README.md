@@ -1,2 +1,2 @@
 # ReactPortfolio
-My portfolio. Made entirely through react
+My portfolio :) Made through react

@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <Nav></Nav>
+
       <Router>
         <Switch>
           <Route path="/contact">
@@ -27,7 +28,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      
 
       <Footer></Footer>
     </div>
