@@ -1,0 +1,63 @@
+body {
+    background-color: grey;
+}
+
+h2 {
+    font-family: "obidee sans";
+    color: #666677;
+}
+
+p {
+    font-size: 17px;
+}
+
+#Portfolio {
+    margin-left:10px;
+}
+
+.hi {
+    float: right ;
+}
+
+
+.imgMe {
+    max-height: 220px;
+    max-width: 210px;
+    margin-right: 20px;
+}
+
+.image {
+    max-height: 225px;
+    margin-left: 10px;
+}
+
+.caption {
+    position: relative;
+    bottom: 50px;
+    background-color: #ccccff;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.portfolioImg {
+    margin-right: 15px;
+}
+
+.navigation {
+    margin-bottom:10px;
+}
+
+.fixedFooter {
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #dddddd;
+}
+
+.link {
+    border-style: solid;
+    border-color: grey;
+    text-align: center;
+}

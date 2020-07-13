@@ -2,10 +2,13 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand" href="/">
-        React Reading List
-      </a>
+    <nav class="navigation navbar navbar-expand bg-dark navbar-dark">
+        <h1 class="navbar-brand">Nicholas Davies</h1>
+        <ul class="navbar-nav hi">
+            <li class="nav-item"><a class="nav-link" href="/">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+        </ul>
     </nav>
   );
 }
